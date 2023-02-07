@@ -2,6 +2,6 @@ provider "aws" {
   region = "us-east-1"
 }
 resource "aws_s3_bucket" "demo1" {
-    bucket = "firsttfbucket4" 
+    bucket = "firsttfbucket" 
     # acl = "${var.acl_value}"   
 }
